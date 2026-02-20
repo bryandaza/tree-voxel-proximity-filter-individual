@@ -1,0 +1,13 @@
+build/
+build_docker/
+results/
+.git/
+.vscode/
+.idea/
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.suo
+*.user
