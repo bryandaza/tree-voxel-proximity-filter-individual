@@ -86,8 +86,9 @@ docker run --rm \
   --threads 8 \
   --outdir "/app/results"
 ```
-Important: why -v is required
-The tool reads input files from your local Data/ folder and writes outputs to your local results/ folder.
+Important: why `-v` is required
+The tool reads input files from your local `Data/` folder and writes outputs to your local `results/` folder.
+
 Docker containers are isolated by default, so we mount these folders using `-v:`
 
 `./Data` -> `/app/Data` (inside container)
